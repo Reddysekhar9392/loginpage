@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-color: black;
+            color: white;
+            font-family:sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Course Registration Form</h1>
+
+    <form action=""
+    autocomplete="on"
+    autocorrect="on"
+    autocapitalize="on"
+    >
+    <fieldset> 
+
+        <legend>Personal Details</legend>
+        <table>
+
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input name="fname" id="fname"  type="text"    required  placeholder="Ex: Reddysekhar"></td>
+            </tr>
+            <tr>
+                <td><label for="Surname">Surname</label></td>
+                <td><input  name="Surname" id="Surname" type="name"    required placeholder="Ex: Kommiri"></td>
+            </tr>
+            <tr>
+                <td><label for="Mobile Number">Mobile Number</label></td>
+                <td><input name="Mobile Number" id="Mobile Number" type="tel" required placeholder="Ex: 985-456-8769"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input name="email" id="email" type="email"    required placeholder="example@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input  name="password" id="password" type="password"    required></td>
+            </tr>
+            <tr>
+                <td><label for="cpassword">Conform Password</label></td>
+                <td><input name="cpassword" id="cpassword" type="password"  required></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">Date Of Birth</label></td>
+                <td><input name="DOB" id="DOB" type="Date"></td>
+            </tr>
+            <tr>
+                <td><label for="age"  >Age</label></td>
+                <td><input  name="age" id="age" type="age"    required></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                <input type="radio"  name="Gender"  value="Male"> 
+                    <label for="">Male</label>
+                <input type="radio"  name="Gender"  value="Female">
+                    <label for="">Female</label>
+                <input type="radio"  name="Gender"  value="Others">
+                    <label for="">Others</label></td>
+            </tr>
+            <tr>
+                <td><label for="Country">Select Country</label></td>
+                <td><select name="Country" id="Country">
+                    <option value="America">America</option>
+                    <option value="England">England</option>
+                    <option value="Germany">Germany</option>
+                    <option value="India">India</option>
+                    
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="file">Upload Picture</label></td>
+                <td><input  name="file" id="file" type="file"    required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" required>Apply</button></td>
+            </tr>
+        </table>
+            <td><button type="submit" required>Apply</button></td>
+
+            </fieldset>
+    </form>
+
+</body>
+</html>
